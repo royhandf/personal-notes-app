@@ -148,7 +148,7 @@ class AppBody extends React.Component {
           </Heading>
           {this.state.notes.length ? (
             <AppList
-              notes={this.state.notes.filter((note) => note.archived)}
+              notes={this.state.notes.filter((note) => note.archived === true)}
               onDelete={this.onDeleteHandler}
               onUnarchive={this.onUnarchiveHandler}
               keyword={this.props.keyword}
