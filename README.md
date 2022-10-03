@@ -1,4 +1,4 @@
-![thumbnail](src/thumbnail/thumbnail-app.png)
+![thumbnail](src/assets/thumbnail-app.png)
 
 # Getting Started with Create React App
 
